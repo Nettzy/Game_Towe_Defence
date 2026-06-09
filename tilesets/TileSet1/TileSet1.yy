@@ -17,7 +17,10 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_chao_grama",
+    "path":"sprites/spr_chao_grama/spr_chao_grama.yy",
+  },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
