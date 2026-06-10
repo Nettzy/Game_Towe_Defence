@@ -1,0 +1,1 @@
+life = obj_interacao.life;
