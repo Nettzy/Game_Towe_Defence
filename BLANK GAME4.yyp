@@ -23,6 +23,7 @@
   },
   "name":"BLANK GAME4",
   "resources":[
+    {"id":{"name":"camera","path":"objects/camera/camera.yy",},},
     {"id":{"name":"O_mask","path":"objects/O_mask/O_mask.yy",},},
     {"id":{"name":"obj_casa","path":"objects/obj_casa/obj_casa.yy",},},
     {"id":{"name":"obj_mal","path":"objects/obj_mal/obj_mal.yy",},},
