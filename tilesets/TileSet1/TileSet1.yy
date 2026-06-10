@@ -1,25 +1,27 @@
 {
   "$GMTileSet":"v1",
   "%Name":"TileSet1",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":true,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[33,60,56,28,24,48,35,49,41,54,52,25,57,53,62,61,],},
+  ],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
   "name":"TileSet1",
-  "out_columns":4,
+  "out_columns":14,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BLANK GAME4",
-    "path":"BLANK GAME4.yyp",
+    "name":"tile_set",
+    "path":"folders/tile_set.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_chao_grama",
-    "path":"sprites/spr_chao_grama/spr_chao_grama.yy",
+    "name":"spr_tile",
+    "path":"sprites/spr_tile/spr_tile.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +36,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":16,
+  "tile_count":207,
 }
