@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_personagem",
-    "path":"sprites/spr_personagem/spr_personagem.yy",
+    "name":"Spr_fren_para",
+    "path":"sprites/Spr_fren_para/Spr_fren_para.yy",
   },
   "spriteMaskId":null,
   "visible":true,
