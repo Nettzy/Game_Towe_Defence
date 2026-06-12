@@ -10,8 +10,8 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"spr_inimigo","folderPath":"folders/spr_inimigo.yy","name":"spr_inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj","folderPath":"folders/obj.yy","name":"obj","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"spr_inimigo","folderPath":"folders/spr_inimigo.yy","name":"spr_inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr","folderPath":"folders/spr.yy","name":"spr","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spt_personagem","folderPath":"folders/spt_personagem.yy","name":"spt_personagem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tile_set","folderPath":"folders/tile_set.yy","name":"tile_set","resourceType":"GMFolder","resourceVersion":"2.0",},
