@@ -37,7 +37,7 @@
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},},
     {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"arma","path":"sprites/arma/arma.yy",},},
+    {"id":{"name":"spr_arma","path":"sprites/spr_arma/spr_arma.yy",},},
     {"id":{"name":"Spr_banker","path":"sprites/Spr_banker/Spr_banker.yy",},},
     {"id":{"name":"Spr_chao","path":"sprites/Spr_chao/Spr_chao.yy",},},
     {"id":{"name":"Spr_inim_and","path":"sprites/Spr_inim_and/Spr_inim_and.yy",},},

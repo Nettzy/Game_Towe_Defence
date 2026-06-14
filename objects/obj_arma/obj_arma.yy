@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_arma",
@@ -27,8 +28,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"velocidade","filters":[],"listItems":[],"multiselect":false,"name":"velocidade","rangeEnabled":true,"rangeMax":5.0,"rangeMin":0.1,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"espera_tiro","filters":[],"listItems":[],"multiselect":false,"name":"espera_tiro","rangeEnabled":false,"rangeMax":1.0,"rangeMin":0.1,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.3","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"velocidade","filters":[],"listItems":[],"multiselect":false,"name":"velocidade","rangeEnabled":true,"rangeMax":5.0,"rangeMin":0.1,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"espera_tiro","filters":[],"listItems":[],"multiselect":false,"name":"espera_tiro","rangeEnabled":false,"rangeMax":1.0,"rangeMin":0.1,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.4","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"tiro","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"tiro","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_tiro","varType":5,},
@@ -37,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"arma",
-    "path":"sprites/arma/arma.yy",
+    "name":"spr_arma",
+    "path":"sprites/spr_arma/spr_arma.yy",
   },
   "spriteMaskId":null,
   "visible":true,
