@@ -1,17 +1,9 @@
 estado = "parado";
 
-direita  = 0;
-esquerda = 0;
-cima     = 0;
-baixo    = 0;
+move_dir = 0
 
-direc = 0;
-
-
-
-
-
-vel  = 1.8; 
+vel  = 0; 
+max_vel = 2.5
 velh = 0;
 velv = 0;
 

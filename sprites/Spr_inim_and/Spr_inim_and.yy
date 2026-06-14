@@ -33,7 +33,7 @@
   "origin":0,
   "parent":{
     "name":"spr_inimigo",
-    "path":"folders/spr_inimigo.yy",
+    "path":"folders/spr/spr_inimigo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
