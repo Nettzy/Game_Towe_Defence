@@ -7,6 +7,12 @@ velv = 0;
 
 arma = noone;
 
+xcale = 1;
+
+olhar_mouse = function()
+{
+	xscale = mouse_x - x != 0 ? sign(mouse_x - x) : 1;
+}
 usa_arma = function()
 {
 	if (arma)
@@ -16,8 +22,8 @@ usa_arma = function()
 		
 		var _dir = point_direction(x,y,mouse_x,mouse_y);
 		
-		var _x = x + lengthdir_x(sprite_width + 14, _dir);
-		var _y = y + lengthdir_y(sprite_height + 14, _dir);
+		var _x = x + lengthdir_x(sprite_width + 5, _dir);
+		var _y = y + lengthdir_y(sprite_height + 5, _dir);
 		
 		arma.x = _x;
 		arma.y = _y;

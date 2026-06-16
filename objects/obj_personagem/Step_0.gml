@@ -1,4 +1,6 @@
 
+depth = -bbox_bottom;
+
 controles = function()
 {
 direita = keyboard_check(ord("D"));
@@ -8,7 +10,7 @@ baixo  = keyboard_check(ord("S"));
 
 show_debug_message(arma);
 
-if(cima || baixo or esquerda || direita)
+if(cima xor baixo or esquerda xor direita)
 {
 move_dir = point_direction(0,0, (direita - esquerda),(baixo - cima));
 vel = max_vel;
@@ -24,9 +26,12 @@ velv = lengthdir_y(vel, move_dir);
 
 }
 
+
 usa_arma();
 
 controles();
+
+olhar_mouse();
 
 move_and_collide(velh, velv, all);
 

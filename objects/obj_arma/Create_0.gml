@@ -20,6 +20,8 @@ atirando = function()
     _tiro.speed = velocidade;
     _tiro.direction = image_angle;
    
+   
   }
  }
 }
+

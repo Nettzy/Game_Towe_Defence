@@ -10,7 +10,9 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"shaders","folderPath":"folders/shaders.yy","name":"shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj","folderPath":"folders/obj.yy","name":"obj","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"inimigo","folderPath":"folders/obj/inimigo.yy","name":"inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr","folderPath":"folders/spr.yy","name":"spr","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_arma","folderPath":"folders/spr/spr_arma.yy","name":"spr_arma","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_inimigo","folderPath":"folders/spr/spr_inimigo.yy","name":"spr_inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -31,6 +33,7 @@
     {"id":{"name":"Obj_banker","path":"objects/Obj_banker/Obj_banker.yy",},},
     {"id":{"name":"Obj_barra_de_vida","path":"objects/Obj_barra_de_vida/Obj_barra_de_vida.yy",},},
     {"id":{"name":"obj_casa","path":"objects/obj_casa/obj_casa.yy",},},
+    {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"obj_interacao","path":"objects/obj_interacao/obj_interacao.yy",},},
     {"id":{"name":"obj_mal","path":"objects/obj_mal/obj_mal.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
