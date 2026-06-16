@@ -26,17 +26,7 @@ velv = lengthdir_y(vel, move_dir);
 
 }
 
-#region Dialogo
-if distance_to_object(obj_pai_npc) <= 10
-{
-	if keyboard_check_pressed(ord("E")) and global.dialogo == false
-	{
-		var _npc = instance_nearest(x , y, obj_pai_npc);
-		var _dialogo = instance_create_layer(x , y, "Dialogo", obj_dialogo);
-		_dialogo.npc_nome = _npc.nome;
-	}
-}
-#endregion
+
 usa_arma();
 
 controles();

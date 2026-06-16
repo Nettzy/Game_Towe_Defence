@@ -31,4 +31,3 @@ usa_arma = function()
 		arma.image_angle = _dir;
 	}
 }
-
