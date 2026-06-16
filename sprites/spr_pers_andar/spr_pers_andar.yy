@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"spt_personagem",
-    "path":"folders/spr/spt_personagem.yy",
+    "name":"spr_personagem",
+    "path":"folders/spr/spr_personagem.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
