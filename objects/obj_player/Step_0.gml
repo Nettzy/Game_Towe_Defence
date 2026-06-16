@@ -27,10 +27,6 @@ velv = lengthdir_y(vel, move_dir);
 }
 
 
-<<<<<<< HEAD:objects/obj_personagem/Step_0.gml
-=======
-
->>>>>>> 1e335a53e755b1148ea5f4d6645262cef40b35dd:objects/obj_player/Step_0.gml
 usa_arma();
 
 controles();

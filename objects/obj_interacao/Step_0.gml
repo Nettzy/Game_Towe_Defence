@@ -9,7 +9,7 @@ if (place_meeting(x, y, obj_player))
         // Reposiciona o player ANTES de trocar de room
         with (obj_player)
         {
-            x = 290;
+            x = 280;
             y = 390;
         }
         
