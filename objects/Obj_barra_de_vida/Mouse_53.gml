@@ -1,1 +1,1 @@
-life-=20;
+obj_interacao.life -= 20;

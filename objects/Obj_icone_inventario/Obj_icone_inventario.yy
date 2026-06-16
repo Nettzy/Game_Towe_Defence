@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_interacao",
+  "%Name":"Obj_icone_inventario",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_interacao",
+  "name":"Obj_icone_inventario",
   "overriddenProperties":[],
   "parent":{
     "name":"obj",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_interacao",
-    "path":"sprites/Spr_interacao/Spr_interacao.yy",
+    "name":"Spr_icone_inventario",
+    "path":"sprites/Spr_icone_inventario/Spr_icone_inventario.yy",
   },
   "spriteMaskId":null,
   "visible":true,

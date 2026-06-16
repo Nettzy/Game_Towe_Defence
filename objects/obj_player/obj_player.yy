@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_interacao",
+  "%Name":"obj_player",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_interacao",
+  "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
     "name":"obj",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_interacao",
-    "path":"sprites/Spr_interacao/Spr_interacao.yy",
+    "name":"spr_pers_idle",
+    "path":"sprites/spr_pers_idle/spr_pers_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object5",
+  "%Name":"Obj_camera",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object5",
+  "name":"Obj_camera",
   "overriddenProperties":[],
   "parent":{
     "name":"obj",

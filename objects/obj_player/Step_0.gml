@@ -24,6 +24,8 @@ velv = lengthdir_y(vel, move_dir);
 
 }
 
+
+
 usa_arma();
 
 controles();
