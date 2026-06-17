@@ -44,6 +44,7 @@
     {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"obj_interacao","path":"objects/obj_interacao/obj_interacao.yy",},},
     {"id":{"name":"Obj_interacao2","path":"objects/Obj_interacao2/Obj_interacao2.yy",},},
+    {"id":{"name":"obj_loja","path":"objects/obj_loja/obj_loja.yy",},},
     {"id":{"name":"obj_lojista","path":"objects/obj_lojista/obj_lojista.yy",},},
     {"id":{"name":"obj_mal","path":"objects/obj_mal/obj_mal.yy",},},
     {"id":{"name":"obj_pai_npc","path":"objects/obj_pai_npc/obj_pai_npc.yy",},},

@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lojista",
+  "%Name":"obj_loja",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_lojista",
+  "name":"obj_loja",
   "overriddenProperties":[],
   "parent":{
-    "name":"npc",
-    "path":"folders/obj/npc.yy",
+    "name":"obj",
+    "path":"folders/obj.yy",
   },
-  "parentObjectId":{
-    "name":"obj_pai_npc",
-    "path":"objects/obj_pai_npc/obj_pai_npc.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_lojista",
-    "path":"sprites/spr_lojista/spr_lojista.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
