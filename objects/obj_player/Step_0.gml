@@ -1,3 +1,9 @@
+if (global.pausado)
+{
+    velh = 0;
+    velv = 0;
+    exit;
+}
 
 depth = -bbox_bottom;
 
