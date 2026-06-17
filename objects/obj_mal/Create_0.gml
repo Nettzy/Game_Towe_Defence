@@ -3,6 +3,8 @@ event_inherited();
 hp = 1;
 hp_max = hp;
 
+randomise();
+
 xscale = 1
 yscale = 1
 sprite_index = Spr_inim_and

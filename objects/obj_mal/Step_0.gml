@@ -24,5 +24,14 @@ depth = -bbox_bottom;
 
 if (hp <= 0)
 {
+    var _sorteio = irandom(99);
+    
+    if (_sorteio < 75)
+        instance_create_layer(x, y, "Instances", Obj_slime);
+    else if (_sorteio < 95)
+        instance_create_layer(x, y, "Instances", Obj_sucata);
+    else
+        instance_create_layer(x, y, "Instances", Obj_nucleo);
+    
     instance_destroy();
 }
