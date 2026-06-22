@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mal",
+  "%Name":"obj_pai_npc",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mal",
+  "name":"obj_pai_npc",
   "overriddenProperties":[],
   "parent":{
     "name":"inimigo",
     "path":"folders/obj/inimigo.yy",
   },
-  "parentObjectId":{
-    "name":"obj_pai_npc",
-    "path":"objects/obj_pai_npc/obj_pai_npc.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_inim_and",
-    "path":"sprites/Spr_inim_and/Spr_inim_and.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
