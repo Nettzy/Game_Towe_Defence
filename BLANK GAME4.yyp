@@ -11,8 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"obj","folderPath":"folders/obj.yy","name":"obj","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"itens","folderPath":"folders/obj/itens.yy","name":"itens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"inimigo","folderPath":"folders/obj/inimigo.yy","name":"inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"itens","folderPath":"folders/obj/itens.yy","name":"itens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr","folderPath":"folders/spr.yy","name":"spr","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_arma","folderPath":"folders/spr/spr_arma.yy","name":"spr_arma","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_inimigo","folderPath":"folders/spr/spr_inimigo.yy","name":"spr_inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},

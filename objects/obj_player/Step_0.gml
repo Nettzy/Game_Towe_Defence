@@ -41,3 +41,4 @@ olhar_mouse();
 
 move_and_collide(velh, velv, all);
 
+// Atualiza se a janela for redimensionada

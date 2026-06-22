@@ -31,3 +31,5 @@ usa_arma = function()
 		arma.image_angle = _dir;
 	}
 }
+
+// Ajusta a câmera ao tamanho da janela automaticamente

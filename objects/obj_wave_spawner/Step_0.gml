@@ -24,6 +24,12 @@ if (global.pausado) exit;
         var _btn_reiniciar_x = _cx - _btn_w - _btn_gap / 2;
         var _btn_sair_x = _cx + _btn_gap / 2;
 
+// Destrói objetos persistentes para resetar corretamente
+instance_destroy(obj_inventario);
+instance_destroy(obj_interacao);
+instance_destroy(obj_wave_spawner);
+room_restart();
+
         if (_mx >= _btn_reiniciar_x && _mx <= _btn_reiniciar_x + _btn_w &&
             _my >= _btn_y && _my <= _btn_y + _btn_h)
             room_restart();
