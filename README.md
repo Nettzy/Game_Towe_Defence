@@ -1,4 +1,4 @@
-# Game Tower Defence
+Game Tower Defence
 
 > Jogo de ação top-down com elementos de RPG e tower defence, desenvolvido em **GameMaker 2026** com **Game Maker Language (GML)**.
 
@@ -108,6 +108,6 @@ Game_Towe_Defence/
 ## Tecnologias
 
 - **Engine:** GameMaker 2026
-- **Linguagem:** GML (Game Maker Language)
-- **Renderização de UI:** Draw GUI (sistema nativo do GameMaker)
-- **Controle de versão:** Git + GitHub
+- **Linguagem:** GML 
+- **Renderização de UI:** Draw GUI 
+- **Controle de versão:** Git com GitHub
