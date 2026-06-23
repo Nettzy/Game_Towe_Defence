@@ -1,4 +1,15 @@
 
+// Gatilho: player saiu do banker → inicia wave
+if (global.iniciar_proxima_wave)
+{
+    global.iniciar_proxima_wave = false; // reseta o gatilho
+    global.banker_liberado = false;      // bloqueia banker
+    wave_ativa = true;
+    wave_concluida = false;
+    wave_timer = wave_duracao * room_speed;
+    spawn_timer = spawn_intervalo;
+}
+
 // Verifica se a base foi destruída
 if (instance_exists(obj_interacao) && obj_interacao.life <= 0)
 {
@@ -76,6 +87,7 @@ if (!wave_ativa && !wave_concluida && !mostrar_mensagem)
         mensagem_timer = 2 * room_speed;
         wave_concluida = true;
         wave_atual++;
+		
     }
     exit;
 }

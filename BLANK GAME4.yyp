@@ -18,9 +18,9 @@
     {"$GMFolder":"","%Name":"npc","folderPath":"folders/obj/npc.yy","name":"npc","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr","folderPath":"folders/spr.yy","name":"spr","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"spr_itens","folderPath":"folders/spr/spr_itens.yy","name":"spr_itens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_arma","folderPath":"folders/spr/spr_arma.yy","name":"spr_arma","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_inimigo","folderPath":"folders/spr/spr_inimigo.yy","name":"spr_inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"spr_itens","folderPath":"folders/spr/spr_itens.yy","name":"spr_itens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_personagem","folderPath":"folders/spr/spr_personagem.yy","name":"spr_personagem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tile_set","folderPath":"folders/tile_set.yy","name":"tile_set","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -86,8 +86,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
