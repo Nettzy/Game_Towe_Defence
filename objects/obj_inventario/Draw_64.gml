@@ -1,3 +1,14 @@
+
+// ADICIONA ESSA VERIFICAÇÃO NO INÍCIO
+if (!instance_exists(obj_inventario))
+{
+    instance_destroy();
+    exit;
+}
+
+var _gw  = display_get_gui_width();
+// ... resto do código continua igual
+
 if (!aberto) exit;
 
 // Fundo escuro

@@ -1,3 +1,14 @@
+
+// ADICIONA ESSA VERIFICAÇÃO NO INÍCIO
+if (!instance_exists(obj_inventario))
+{
+    instance_destroy();
+    exit;
+}
+
+var _inv   = obj_inventario;
+// ... resto do código continua igual
+
 // Abre/fecha inventário
 if (keyboard_check_pressed(vk_tab))
 {

@@ -2,7 +2,7 @@
 
 if (mostrar_botao)
 {
-    var _texto = "[E] Entrar";
+    var _texto = "[E] Sair";
     var _sx = x + 30;          // centralizado no obj_interacao
     var _sy = y;     // acima do objeto
 

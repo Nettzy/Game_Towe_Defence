@@ -4,13 +4,13 @@ var _gh = display_get_gui_height();
 draw_set_font(Font1);
 
 var _padding  = 32;
-var _lin_h    = 56;
-var _titulo_h = 40;
+var _lin_h    = 80;   // ← mais espaço entre itens
+var _titulo_h = 48;   // ← título um pouco maior
 var _rodape_h = 36;
 var _largura  = _gw - 128;
 var _altura   = _titulo_h + (loja_total * _lin_h) + _rodape_h + (_padding * 2);
-var _bx       = 64;
-var _by       = _gh - _altura - 32;
+var _bx       = 36;
+var _by       = _gh - _altura - 75;
 
 draw_rectangle_colour(_bx, _by, _bx + _largura, _by + _altura,
                       c_black, c_black, c_black, c_black, false);

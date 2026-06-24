@@ -14,22 +14,29 @@ if keyboard_check_pressed(ord("E"))
     {
         global.ouro -= _custo;
 
-        var _arma = obj_player.arma;
+var _arma = obj_player.arma;
+if _arma != noone
+{
+    if _tipo == "velocidade"
+    {
+        _arma.espera_tiro = max(1, _arma.espera_tiro - 1);
+    }
+    else if _tipo == "dano"
+    {
+        if !variable_instance_exists(_arma, "dano") _arma.dano = 0;
+        _arma.dano += 2;
+    }
+}
 
-        if _arma != noone
-        {
-            if _tipo == "velocidade"
-            {
-                // Reduz a espera entre tiros em 1 (mínimo 1 frame)
-                _arma.espera_tiro = max(1, _arma.espera_tiro - 1);
-            }
-            else if _tipo == "dano"
-            {
-                // Garante que a variável dano existe antes de somar
-                if !variable_instance_exists(_arma, "dano") _arma.dano = 0;
-                _arma.dano += 2;
-            }
-        }
+// ← IF SEPARADO, não else if!
+if _tipo == "reparar_base"
+{
+    if instance_exists(obj_interacao)
+    {
+        with (obj_interacao)
+            life = min(life + (life_max * 0.20), life_max);
+    }
+}
 
         loja_msg        = "Comprado!";
         loja_msg_timer  = 90; // frames que a mensagem fica visível

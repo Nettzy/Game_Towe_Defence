@@ -1,5 +1,27 @@
 draw_self();
 
+// ← ADICIONA AQUI
+if (mostrar_botao && !menu_ativo)
+{
+    var _texto = "[F] Interagir";
+    var _sx = x + 18;
+    var _sy = y - 20;
+    draw_set_color(c_black);
+    draw_set_alpha(0.6);
+    draw_roundrect(_sx - 50, _sy - 14, _sx + 50, _sy + 14, false);
+    draw_set_alpha(1);
+    draw_set_color(c_white);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_text(_sx, _sy, _texto);
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+}
+
+// Só renderiza o menu quando ele estiver aberto
+if (!menu_ativo) exit;
+// ... resto do código do menu
+
 // Só renderiza o menu quando ele estiver aberto
 if (!menu_ativo) exit;
 

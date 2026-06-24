@@ -1,3 +1,27 @@
+
+// Fecha o menu se um diálogo estiver ativo
+if (global.dialogo)
+    menu_ativo = false;
+
+// Fecha o menu se a venda estiver aberta
+if (instance_exists(obj_venda))
+    menu_ativo = false;
+
+// Fecha o menu se a loja estiver aberta
+if (instance_exists(obj_loja))
+    menu_ativo = false;
+
+mostrar_botao = false;
+if (!menu_ativo && instance_exists(obj_player))
+{
+    if (place_meeting(x, y, obj_player))
+    {
+        mostrar_botao = true;
+        if (keyboard_check_pressed(ord("F")))
+            menu_ativo = true;
+    }
+}
+
 if (menu_ativo)
 {
     if (keyboard_check_pressed(vk_up))
@@ -23,8 +47,7 @@ if (menu_ativo)
             break;
 
             case 2:   // Vender itens
-               
-                show_message("Venda de itens em breve!");
+                instance_create_layer(obj_player.x, obj_player.y, "Dialogo", obj_venda);
             break;
         }
     }
