@@ -7,7 +7,7 @@ atirando = function()
  if (atirar)
  {
   delay_tiro--;
-  if(delay_tiro <=0)
+  if(delay_tiro <= -8)
   {
 	  
 	  

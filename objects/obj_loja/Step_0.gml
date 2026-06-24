@@ -19,7 +19,7 @@ if _arma != noone
 {
     if _tipo == "velocidade"
     {
-        _arma.espera_tiro = max(1, _arma.espera_tiro - 1);
+        _arma.espera_tiro = max(1, _arma.espera_tiro + 1.5);
     }
     else if _tipo == "dano"
     {

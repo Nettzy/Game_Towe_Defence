@@ -26,12 +26,21 @@ if (mostrar_mensagem)
     var _cy = display_get_gui_height() / 2;
     draw_set_color(make_color_rgb(20, 20, 20));
     draw_set_alpha(0.7);
-    draw_roundrect(_cx - 120, _cy - 24, _cx + 120, _cy + 24, false);
+    draw_roundrect(_cx - 150, _cy - 24, _cx + 150, _cy + 24, false);
     draw_set_alpha(1);
-    draw_set_color(make_color_rgb(80, 220, 80));
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
-    draw_text(_cx, _cy, "Wave Concluída!");
+    
+    if (wave_atual > 10)
+    {
+        draw_set_color(make_color_rgb(255, 215, 0)); // dourado
+        draw_text(_cx, _cy, "Parabéns! Você sobreviveu às 10 waves!");
+    }
+    else
+    {
+        draw_set_color(make_color_rgb(80, 220, 80));
+        draw_text(_cx, _cy, "Wave Concluída!");
+    }
 }
 
 // Mensagem Wave Perdida

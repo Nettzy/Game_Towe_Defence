@@ -85,11 +85,22 @@ if (!wave_ativa && !wave_concluida && !mostrar_mensagem)
     if (!wave_iniciada) exit;
     if (instance_number(obj_mal) == 0)
     {
-        mostrar_mensagem = true;
-        mensagem_timer = 2 * room_speed;
-        wave_concluida = true;
-        wave_atual++;
-        global.banker_liberado = true; // ← libera o banker
+        if (wave_atual > 10)
+        {
+            // Vitória!
+            mostrar_mensagem = true;
+            mensagem_timer = -1; // -1 = fica para sempre
+            wave_concluida = true;
+            global.banker_liberado = false; // trava o banker
+        }
+        else
+        {
+            mostrar_mensagem = true;
+            mensagem_timer = 2 * room_speed;
+            wave_concluida = true;
+            wave_atual++;
+            global.banker_liberado = true;
+        }
     }
     exit;
 }
