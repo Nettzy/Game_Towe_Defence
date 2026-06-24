@@ -1,10 +1,10 @@
+if (!instance_exists(obj_interacao)) exit;
+
 // Pega a vida da base
 var _life = obj_interacao.life;
 var _life_max = obj_interacao.life_max;
-
 var amount = (_life / _life_max) * lifebar_w;
 var amount_fixed = lifebar_w;
-
 var x1 = 10;
 var y1 = 10;
 var x2 = x1 + amount;

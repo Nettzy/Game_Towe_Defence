@@ -6,8 +6,7 @@ if (place_meeting(x, y, obj_player))
     
     if (keyboard_check_pressed(ord("E")))
     {
-		global.iniciar_proxima_wave = true;
-        // Reposiciona o player ANTES de trocar de room
+        global.iniciar_proxima_wave = true;
         with (obj_player)
         {
             x = 490;

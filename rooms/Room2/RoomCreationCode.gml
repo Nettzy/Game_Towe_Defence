@@ -1,0 +1,1 @@
+global.iniciar_proxima_wave = false;
